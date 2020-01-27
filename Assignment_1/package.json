@@ -1,0 +1,21 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "Server Side",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm test/index.js",
+    "start": "node -r esm src/index.js"
+  },
+  "author": "Betremussie T",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^7.0.0"
+  },
+  "dependencies": {}
+}
