@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Magic Numbers
+</title>
+<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">  </script>
+    <script>
+      $(document).ready(function(){
+        var choice;
+        $("#submit").click(function(){
+            alert("success");
+            choice=$("#choice").val();
+          $.post("/games",{choice: choice}, function(data){
+            if(data==='done')
+              {
+                alert("success");
+              }
+          });
+        });
+      });
+    </script> -->
+</head>
+<body>
+    <h1>Enter Your Lucky Number!</h1><br>
+    <form action="/games" method="POST">
+        <input type="text" name="choice" size="40">
+        <button type="submit">Submit</button>
+    </form>
+    <!--    <input type="TEXT" name="choice" size="40"><br>
+     <a href="index.html"> 
+        <input type="button" name="submit" id="submit" value="Submit">
+    </a> -->
+
+</body>
+</html>

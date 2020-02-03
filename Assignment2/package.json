@@ -1,0 +1,19 @@
+{
+  "name": "assignment2",
+  "version": "1.0.1",
+  "description": "Static vs Dynamic",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm src/index.js"
+  },
+  "author": "Betremussie T",
+  "license": "ICU",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {}
+}
